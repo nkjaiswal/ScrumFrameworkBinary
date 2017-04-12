@@ -16,6 +16,7 @@ import scrumtool.sprint.User;
 
 public class Main {
 	public static void main(String args[]) {
+		URLs.baseURL = "http://myconnectedhome.info:3003/";
 		RestHandler rh = new RestHandler();
 		ScrumTool scrumTool = ScrumTool.getInstance(rh);
 		try {
